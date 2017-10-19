@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu+Condensed');
+
+.morePadding{
+    padding: 50px;
+    /*border: solid 1px black;*/
+
+}
+.headImg {
+    background: url(../images/appleHeadChihuahua2.jpg)no-repeat top;
+    height: 800px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.introtxt{
+    color:black;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.menu{
+    background-color: rgb(44, 56, 64);
+}
+.overlay1{
+    font-family: 'Ubuntu Condensed';
+    color:white;
+    text-align: center;
+    font-size: 5rem;
+}
+.overlay2{
+    font-family: 'Ubuntu Condensed';
+    color:rgb(255,105,180);
+    text-align: center;
+    text-shadow: 2px 2px rgb(50,50,50);
+    font-size: 2rem;
+
+}
+
+
+a:link {
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+a:visited{
+    color:white
+}
+a:hover {
+
+    color: rgb(255,105,180);
+}
+.menu .active > a {
+background: rgb(255,105,180);
+color: white;
+border-radius: 20px;
+}
